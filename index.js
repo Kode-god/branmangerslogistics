@@ -49,7 +49,7 @@ function submitForm() {
     const lname   = document.getElementById('lname').value.trim();
     const email   = document.getElementById('email').value.trim();
     const text = encodeURIComponent(
-    `Hello Branmanagers Logistics,\n\nName: ${fname} ${lname}\nPhone: ${phone}\nEmail: ${email}\nService: ${service}\n\nMessage: ${message}`
+    `Hello Branmangers Logistics,\n\nName: ${fname} ${lname}\nPhone: ${phone}\nEmail: ${email}\nService: ${service}\n\nMessage: ${message}`
     );
 
     // Open WhatsApp
